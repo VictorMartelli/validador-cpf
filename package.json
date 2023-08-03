@@ -1,0 +1,21 @@
+{
+  "name": "validador-cpf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.2"
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.6.2"
+  }
+}

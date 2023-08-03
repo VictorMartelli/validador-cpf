@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>Validador de CPF</title>
+</head>
+<body>
+
+  <div class="container">
+    <img src="./rock_lee.jpg" />
+    <label>VERIFIQUE SE UM CPF É VALIDO!</label>
+    <input type="text" id="cpf" class="cpf" autocomplete="off">
+    <button onclick="validarCPFDoInput()">VERIFICAR CPF</button>
+    <div class="resultado">
+      <p class="error"></p>
+      <p id="value"></p>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+<script src="./mask.js"></script>
+<script src="./script.js"></script>
+</html>
